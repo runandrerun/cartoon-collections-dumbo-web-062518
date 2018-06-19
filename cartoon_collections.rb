@@ -11,7 +11,8 @@ def summon_captain_planet(planeteer_calls) # code an argument here
   # Your code here
   capitalized = []
   planeteer_calls.each do |x|
-    capitalized << x.upcase
+    x.upcase
+    
   end
   capitalized
 end
