@@ -13,7 +13,7 @@ def summon_captain_planet(planeteer_calls) # code an argument here
   planeteer_calls.each do |x|
     capitalized << x.upcase
   end
-  
+  capitalized
 end
 
 def long_planeteer_calls# code an argument here
